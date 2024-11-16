@@ -1,0 +1,40 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    background-color: black;
+    color: #fff;
+}
+
+.right-footer {
+    display: flex;
+    gap: 140px;
+}
+
+.right-footer ul {
+    list-style-type: none;
+    font-size: medium;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-footer a {
+    color: #827474;
+    text-decoration: none;
+}
+
+.right-footer p {
+    margin-bottom: 30px;
+    font-size: large;
+}
+
+@media screen and (max-width:800px) {
+    .right-footer {
+        display: block;
+    }
+
+    .footer-container{
+        display: block;
+    }
+}

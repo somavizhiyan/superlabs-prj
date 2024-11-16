@@ -1,0 +1,36 @@
+.section6-container{
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    background-color: red;
+    align-items: center;
+    color: #fff;
+    gap: 30px;
+}
+.section-6-buttons{
+    display: flex;
+    gap: 20px;
+}
+.section-6-buttons button{
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+.outlinee{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;   
+}
+.btnn{
+    border: none;
+    color: red;
+}
+.outlinee:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+.btnn:hover{
+background-color: red;
+color: white;
+border: 1px solid white;
+}

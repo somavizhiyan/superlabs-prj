@@ -1,0 +1,42 @@
+.section3-container{
+    padding: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    gap: 30px;
+}
+.section3-top {
+    width: 800px;
+}
+.section3-top h1{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.section3-bottom p{
+    font-size: x-large;
+    font-weight: 400;
+    width: 600px;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .section3-container{
+        padding: 40px;
+        align-items: center;
+        font-size: small;
+    }
+
+    .section3-top {
+        width: 100%;
+    }
+
+    .section3-bottom p{
+        width: 100%;
+    }
+
+    }
+
